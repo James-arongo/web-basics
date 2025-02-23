@@ -1,0 +1,9 @@
+# Ignore images
+*.jpg
+*.jpeg
+*.png
+*.favicon
+
+# Ignore compressed files
+*.zip
+*.rar
