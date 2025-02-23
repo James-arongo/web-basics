@@ -7,3 +7,7 @@
 # Ignore compressed files
 *.zip
 *.rar
+
+# Ignore videos
+# *.mp4
+# *.avi
