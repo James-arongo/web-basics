@@ -1,0 +1,29 @@
+body {
+    margin: 10px;
+}
+
+/**
+* Descendant Selector.
+* Will apply to any p element inside products section.
+* To select the first sibling p elemement, use the > symbol; #products > p
+**/
+#products p {
+    color: rgb(197, 37, 236);
+}
+
+/**
+* Select direct sibling paragraph of section element.
+* Use + symbol.
+**/
+#products + p {
+    color: rgb(236, 7, 7);
+}
+
+/**
+* Select all sibling paragraph of section element
+* Use tilde character.
+**/
+
+#products ~ p {
+    color: rgb(7, 236, 19);
+}
