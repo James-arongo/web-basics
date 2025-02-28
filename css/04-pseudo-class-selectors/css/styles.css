@@ -1,0 +1,36 @@
+body {
+    margin: 10px;
+}
+
+/**
+* Pseudo class selectors start with a colon.
+* To prevent rules breaking, specify the element type to be selected by the pseudo-class selector. In this scenario, the first paragraph in the article element.
+**/
+.first p:first-of-type {
+    font-size: 150%;
+    font-style: italic;
+}
+
+/**
+* Target last last child of p element in article element
+**/
+article p:last-of-type {
+    font-weight: bold;
+}
+
+/* Target links; before and after visiting */
+a:visited, a:link {
+    color: rgb(241, 238, 8);
+}
+
+/* Target links when hovered over using a mouse or using tab key */
+a:hover, a:focus {
+    color: deepskyblue;
+}
+
+/**
+* Style odd number items in a list or table.
+**/
+.second li:nth-child(odd) {
+    color: red;
+}
