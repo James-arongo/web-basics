@@ -1,0 +1,55 @@
+/* Type Selector */
+body {
+    margin: 10px;
+}
+
+/* ID Selector */
+#products {
+    color: aqua;
+}
+
+/* Class Selector */
+.description {
+    font-style: italic;
+}
+
+/** 
+Attribute Selector
+- Used to select elements with a particular attribute.
+- For instance, select all anchor elements with a target attribute:
+* If you want to be explicit, you can supply the attribute's value, in this scenario '_blank'
+**/
+a[target="_blank"] {
+color: brown;
+}
+
+/* Use atribute selector to target all href elements pointing to google */
+a[href*="google"] {
+    color: rgb(0, 255, 64);
+}
+
+/**
+ Target with attribute starting with a given value.
+ * uses caret character to select.
+ * this example targets all anchor elements with href attribute starting with https.
+ */
+a[href^="https"] {
+    color: orange;
+}
+
+/**
+ Target with attribute ending with a given value.
+ * uses dollar sign character to select.
+ * this example targets all anchor elements with href attribute starting with https.
+ */
+ a[href$=".com"] {
+    color: rgb(255, 17, 0);
+}
+
+/**
+Combinig conditions
+**/
+a[href^="https"][href$=".com"] {
+    font-style: italic;
+    color: beige;
+}
