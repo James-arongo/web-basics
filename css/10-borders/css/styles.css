@@ -1,0 +1,12 @@
+body {
+    margin: 10px;
+}
+
+/* Refer to CSS shapes for different shapes */
+.box {
+    width: 250px;
+    height: 250px;
+    border: 10px dotted red;
+    background: purple;
+    border-radius: 125px;
+}
