@@ -1,0 +1,16 @@
+body {
+    margin: 10px;
+}
+
+/* box-shadow values: left, right, soft/blur */
+.box {
+    width: 250px;
+    height: 250px;
+    background: antiquewhite;
+    box-shadow: 0 0 30px gray;
+}
+
+/* Add text-shadow to text */
+h1 {
+    text-shadow: 3px 3px 3px gray;
+}
