@@ -1,0 +1,17 @@
+body {
+    margin: 10px;
+}
+
+.second {
+    color:blueviolet;
+    border: 1px solid rgb(128, 0, 11);
+}
+
+/**
+* initial property overrides inheriting from parent element.
+* inherit property forces inharitance from parent element
+**/
+strong {
+    color: initial;
+    border: inherit;
+}
