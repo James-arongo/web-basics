@@ -1,0 +1,46 @@
+body {
+    margin: 10px;
+}
+
+/**
+.this-word {
+    color: aqua;
+}
+
+.first-sentence {
+    font-style: italic;
+    color: blue;
+}
+**/
+
+/**
+* Using pseudo-element selector
+* Uses double colon (::)
+**/
+/* Select first letter */
+p::first-letter {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 170%;
+}
+
+/* Select first line */
+p::first-line {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Make the background of all selections bisque */
+::selection {
+    background-color: bisque;
+}
+
+/**
+* Inserting content before the content of an element.
+* Direct insertion into the DOM; not a real HTML element
+* after property has a similar behavior
+**/
+p::before {
+    content: '...';
+    display: block;
+}
