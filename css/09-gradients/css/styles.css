@@ -1,0 +1,25 @@
+body {
+    margin: 10px;
+}
+
+/**
+* gradients are images
+* gradients use 'background-image' propery or 'background'
+* default is top-down, but can be overidden using to-right (or the direction you want the transition to follow) function
+**/
+.box {
+    width: 250px;
+    height: 250px;
+    background-image: linear-gradient(to bottom right,dodgerblue, tomato, rgb(211, 191, 203));
+}
+
+/**
+* Using radial-gradient property
+**/
+.box2 {
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle at top left, white, purple);
+}
+
+/* Check gradient generator */
