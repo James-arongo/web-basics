@@ -1,0 +1,9 @@
+
+/**
+* Use margin property to separate elements and padding property to add space between the border and the content area of the element.
+**/
+p{
+    padding: 10px 20px; /* vertical padding, horizontal padding */
+    border: 5px solid cyan;
+    margin: 20px;
+}
